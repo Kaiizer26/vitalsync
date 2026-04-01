@@ -1,0 +1,8 @@
+# node_modules: sera réinstallé dans le conteneur, inutile de le copier
+#.env:ne doit jamais entrer dans une image Docker
+#*.log:fichiers temporaires sans valeur
+#test: le dossier de tests ne sert pas en production
+node_modules
+.env
+*.log
+test
