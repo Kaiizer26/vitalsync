@@ -1,0 +1,15 @@
+# car les dépendances ne doivent pas être versionnées
+node_modules/
+# contient des secrets (mdp, tokens), ne doit pas être commité
+.env
+# ces fichiers changent fréquemment et ne sont pas pertinents pour le projet
+*.log
+npm-debug.log*
+# Générés automatiquement par macOS et Windows pour gérer l'affichage des dossiers. Ils n'ont aucun rapport avec le code   
+.DS_Store
+Thumbs.db
+#car c'est la config personnelle de l'éditeur
+.vscode/
+.idea/
+# fichiers docker spécifiques à la marchine locale
+.docker/
