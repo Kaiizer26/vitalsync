@@ -78,7 +78,7 @@ jobs:
           echo "POSTGRES_DB=${{ secrets.POSTGRES_DB }}" >> .env
 
       - name: Deploy with docker-compose
-        run: docker-compose up -d
+        run: docker compose up -d
 
       - name: Health check
         run: |
